@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="styles/landing-page.css"/>
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- the nav bar section for a user who didn't signin -->
+    <nav class="navbar navbar-expand-sm">
+        <div class="container">
+            <a href="#" class="navbar-brand logo"><span class="logospan">MY</span> BLOG</a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a>
+                            <button class="subbtn">
+                                Subscribe
+                            </button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a>
+                            <button class="loginbtn">
+                                Login
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+            </div>            
+        </div>
+    </nav>
+
+    <!-- the hero of our landing page -->
+    <section class="container">
+        <div class="herocontainer d-sm-flex">
+            <div class="herointro">
+                <p>My Experience Blog</p>
+                <h1 class="heroheadline">
+                    The best bloggers' site ever exist...
+                </h1>
+                <p class="herodesc">Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind 
+                    texts. Separated they live in Bookmarksgrove right at 
+                    the coast of the Semantics.
+                </p>
+                <span class="heroline"></span>
+                <div class="herosearchbar">
+                    <img src="assets/Icon awesome-search.svg" alt="">
+                    <input type="search" placeholder="Search blogs..." class="herosearchbox">
+                    <button class="btn herosearchbtn">Search</button>
+                </div>
+            </div>
+            <img src="assets/Group 132.svg" alt="">
+        </div>
+    </section>
+
+    <!-- the popular blog template for a guest user -->
+    <section class="popularblogs container">
+        <h2 class="blogtemplateintro">Here's where you can find our most <span class="strongcolor">popular</span> blog posts.</h2>
+        <div class="popblogflex">
+            <div class="oneblogtemplate">
+                <div class="upperblogsection">
+                    <div class="profilebox">
+                        <div class="profile">
+                            <div class="profileimage">
+                                <img src="assets/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="">
+                            </div>
+                            <span class="username">John Doe</span>
+                        </div>
+                        <div class="profilebuttons">
+                            <img src="assets/bookmark-plus.svg" class="firstbutton" alt="">
+                            <img src="assets/Path 3.svg" alt="">
+                        </div>
+                    </div>
+                    <img src="assets/carson-masterson-QqmsN-dv9d8-unsplash.jpg" class="imagebox" alt="">
+                    
+                </div>
+                <div class="lowerblogsection">
+                    <div class="blogtitle">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    </div>
+                    <div class="summarizedcontent">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
+                    </div>
+                    <div class="blogfooter">
+                        <div class="leftfooter">
+                            <span>date</span>
+                            <span>3 min read</span>
+                            <div class="categorybackground">
+                                <span>Programming</span>
+                            </div>
+                            <div class="numberofviews">
+                                <img src="assets/eye.svg" alt="">
+                                <span>423</span>
+                            </div>
+                        </div>
+                        <div class="rightfooter">
+                            <img src="assets/Path 144.svg" class="likesbackground" alt="">
+                            <div class="likescontainer">
+                                <img src="assets/Icon feather-thumbs-up.svg" class="likebtn" alt="">
+                                <span class="likenumbers">423</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- the load more button -->
+    <button class="loadmorebtn">
+        Load more
+    </button>
+    <!-- what you could do with us -->
+    <h2 class="blogtemplateintro">What you could do <br>with <span class="strongcolor">us</span>!?</h2>
+    <section class="container mb-5 threecards">
+        <div class="onecard">
+            <div class="uppercard">
+                <img src="assets/post article.svg" alt="">
+            </div>
+            <div class="lowercard">
+                <h3>Post articles</h3>
+                <span class="underline"></span>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+                
+            </div>
+            <div class="colorbackground">
+
+            </div>
+        </div>
+        <div class="onecard">
+            <div class="uppercard">
+                <img src="assets/undraw_Reading_re_29f8.svg" alt="">
+            </div>
+            <div class="lowercard">
+                <h3>Read articles</h3>
+                <span class="underline"></span>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+                
+            </div>
+            <div class="colorbackground">
+
+            </div>
+        </div>
+        <div class="onecard">
+            <div class="uppercard">
+                <img src="assets/undraw_Sharing_articles_re_jnkp.svg" alt="">
+            </div>
+            <div class="lowercard">
+                <h3>Share articles</h3>
+                <span class="underline"></span>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+                
+            </div>
+            <div class="colorbackground">
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        
+                <div class="upperfooter">
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Terms</a></li>
+
+                    </ul>
+                </div>
+                <div class="dropdown lowerfooter">
+                    <button class="dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                      Language
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                      <li><button class="dropdown-item" type="button">አማርኛ</button></li>
+                      <li><button class="dropdown-item" type="button">English</button></li>
+                    </ul>
+                  </div>
+        
+    </footer>
+    <!-- <script src="bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

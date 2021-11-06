@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="styles/blogdetail.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand logo"><img src="assets/icons/Layer 2.svg" alt=""></a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto ulflex">
+                    <li class="nav-item">
+                        <form action="#">
+                            <div class="searchboxcontainer">
+                                <input type="search" id="search" class="searchbox" placeholder="Search blogs...">
+                                <button type="submit" class="searchbtn">
+                                    <img src="assets/icons/Icon awesome-search.svg"></img>
+                                </button>
+                            </div>
+                        </form>
+                    </li>
+                    <li class="nav-item">
+                        <a href="add-blog.html">
+                            <div class="addarticlebtn">
+                                <img src="assets/icons/Group 95.svg"></img>
+                            </div>
+                            
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <ul class="ulflexinner">
+                            <li><a href="message.html">
+                                <img src="assets/icons/MDI - chat-processing-outline.svg" class="icon1 position-relative"></img>
+                            </a></li>
+                            <li><a href="bookmark.html">
+                                <img src="assets/icons/MDI - bookmark-multiple-outline.svg" class="icon2"></img>
+                            </a></li>
+                            <li><a href="notification.html">
+                                <img src="assets/icons/MDI - bell-outline.svg" class="icon3"></img>
+                            </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a  onclick="myFunction()"><img src="assets/Ellipse 12@2x.png" class="profileimg dropbtn"></img></a>
+                            <div class="dropdown-content" id="myDropdown">
+                              <a href="#"><img src="assets/icons/MDI - account-outline.svg" alt=""> Profile</a>
+                              <a href="#"><img src="assets/icons/MDI - bookmark-multiple-outline.svg" alt=""> Saved</a>
+                              <a href="#"><img src="assets/icons/MDI - cog-outline.svg" alt=""> Settings</a>
+                              <a href="#">Log out</a>
+                            </div>
+                          </div>
+                        
+                    </li>
+
+                </ul>
+            </div>            
+        </div>
+    </nav>
+
+    <section class="container mama">
+        <div class="row pt-4">
+            <div class="col-2">
+
+            </div>
+            <div class="col-6 maincontent">
+                <div class="thedetail">
+                    <div class="blogheader">
+                        <div class="blogprofile">
+                            <div class="imgcontainer">
+                                <img src="assets/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="">
+                            </div>        
+                            <div class="textprofile">
+                                <div class="username">
+                                    John Doe
+                                </div>
+                                <div class="profession">
+                                    Author
+                                </div>
+                            </div>                    
+                        </div>
+                        <div class="blogbtns">
+                            <button><img src="assets/blog-detail/MDI - thumb-up-outline.png" alt=""></button>
+                            <button><img src="assets/blog-detail/bookmark-plus.png" alt=""></button>
+                            <button><img src="assets/blog-detail/three-dots.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="blogmeta">
+                        <button>Politics</button>
+                        <p>Aug 19</p>
+                        <p>3 min read</p>
+                    </div>
+                    <div class="blogtitle">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    </div>
+                    <div class="blogimg">
+                        <img src="assets/carson-masterson-QqmsN-dv9d8-unsplash.jpg" alt="">
+                    </div>
+                    <div class="blogdescription">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                    </div>
+                </div>
+                <div class="relatedblogs">
+                    <p>Related posts</p>
+                    <div class="relatedblogcon">
+                        <div class="oneblog">
+                            <div class="imageside">
+                                <div class="profilebox">
+                                    <div class="profile">
+                                        <div class="profileimage">
+                                            <img src="assets/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="">
+                                        </div>
+                                        <span class="username">John Doe</span>
+                                    </div>
+                                    <div class="profilebuttons">
+                                        <button class="probtn firstbtn"><img src="assets/bookmark-plus.svg" class="firstbutton" alt=""></button>
+                                        <button class="probtn secondbtn"><img src="assets/Path 3.svg" alt=""></button>
+                                    </div>
+                                </div>
+                                <img src="assets/carson-masterson-QqmsN-dv9d8-unsplash.jpg" class="imagebox" alt="">
+                            </div>
+                            <div class="contentside">
+                                <div class="blogtitle">
+                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed                            </div>
+                                <div class="blogcontent">
+                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
+                                </div>
+                                <div class="blogfooter">
+                                
+                                        <span>date</span>
+                                        <span>3 min read</span>
+                                        <div class="numberofviews">
+                                            <img src="assets/eye.svg" alt="">
+                                            <span>423</span>
+                                        </div>
+                                        <div class="numberoflikes">
+                                            <img src="assets/eye.svg" alt="">
+                                            <span>424</span>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-4 sidecontent">
+                <div class="tofollow">
+                    <span>Blogers for you</span>
+                    <div class="blogers">
+                        <div class="onebloger">
+                            <div class="blogerleft">
+                                <div class="blogerimg">
+                                    <img src="assets/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="">
+                                </div>
+                                <div class="blogerprofile">
+                                    <div class="username">
+                                        Alfred John
+                                    </div>
+                                    <div class="profession">
+                                        Noble writer
+                                    </div>
+                                </div>
+                            </div>
+                            <button>
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="categories">
+                    <span>Recommended categories</span>
+                    <div class="categorycontainer">
+                        <button>
+                            Science
+                        </button>
+                    </div>
+                </div>
+                <div class="footer">
+                    <footer>
+        
+                        <div class="upperfooter">
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Blogs</a></li>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Help</a></li>
+                                <li><a href="#">Terms</a></li>
+        
+                            </ul>
+                        </div>
+                        <div class="dropdown lowerfooter">
+                            <button class="dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                              Language
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                              <li><button class="dropdown-item" type="button">አማርኛ</button></li>
+                              <li><button class="dropdown-item" type="button">English</button></li>
+                            </ul>
+                          </div>
+                
+            </footer>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <script>
+        
+        /* When the user  clicks on the button,
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+        }
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            // alert('you cllicked ot.');
+            console.log('still good')
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+        }
+    </script>
+    </body>
+</html>

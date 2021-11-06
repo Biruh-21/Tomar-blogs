@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/settings.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand logo"><img src="assets/icons/Layer 2.svg" alt=""></a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto ulflex">
+                    <li class="nav-item">
+                        <form action="#">
+                            <div class="searchboxcontainer">
+                                <input type="search" id="search" class="searchbox" placeholder="Search blogs...">
+                                <button type="submit" class="searchbtn">
+                                    <img src="assets/icons/Icon awesome-search.svg"></img>
+                                </button>
+                            </div>
+                        </form>
+                    </li>
+                    <li class="nav-item">
+                        <a href="add-blog.html">
+                            <div class="addarticlebtn">
+                                <img src="assets/icons/Group 95.svg"></img>
+                            </div>
+                            
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <ul class="ulflexinner">
+                            <li><a href="message.html">
+                                <img src="assets/icons/MDI - chat-processing-outline.svg" class="icon1 position-relative"></img>
+                            </a></li>
+                            <li><a href="bookmark.html">
+                                <img src="assets/icons/MDI - bookmark-multiple-outline.svg" class="icon2"></img>
+                            </a></li>
+                            <li><a href="notification.html">
+                                <img src="assets/icons/MDI - bell-outline.svg" class="icon3"></img>
+                            </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a  onclick="myFunction()"><img src="assets/Ellipse 12@2x.png" class="profileimg dropbtn"></img></a>
+                            <div class="dropdown-content" id="myDropdown">
+                              <a href="#"><img src="assets/icons/MDI - account-outline.svg" alt=""> Profile</a>
+                              <a href="#"><img src="assets/icons/MDI - bookmark-multiple-outline.svg" alt=""> Saved</a>
+                              <a href="#"><img src="assets/icons/MDI - cog-outline.svg" alt=""> Settings</a>
+                              <a href="#">Log out</a>
+                            </div>
+                          </div>
+                        
+                    </li>
+
+                </ul>
+            </div>            
+        </div>
+    </nav>
+    
+    
+
+    <section class="registersection">
+        <!-- <div class="d-flex align-items-start mainwindow">
+            <div class="nav flex-column nav-pill me-3 leftsidebar" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
+              <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+              <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+              <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+            </div>
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    Good Afternoon!
+                </div>
+              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+              <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+              <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+            </div>
+          </div> -->
+        <div class="tabs">
+            <div class="tabheader">
+                <button class="active">Update profile</button>
+                <button>Change password</button>
+                <button>Manage settings</button>
+                <button>Login activity</button>
+            </div>
+            <div class="tabcontent">
+                <div class="onecontent active">
+                    <input type="text">
+                    <h1>lovr</h1>
+                    
+                 
+                    <p>I lfove you lorem ipsuum dolor sit amet whatI love you lorem ipsuum dolor sit amet whatI love you lorem ipsuum dolor sit amet whatI love you lorem ipsuum dolor sit amet what</p>
+                </div>
+                <div class="onecontent">
+                    <p>I love you lorem ipsuum dolor sit amet whatI love you lorem ipsuum dolor sit amet whatI love you lorem ipsuum dolor sit amet whatI love you lorem ipsuum dolor sit amet what</p>
+                </div>
+                <div class="onecontent">
+                    <p>I love you lorem ipsuum dolor sit amet whatI love you lorem ipsuum dolor sit amet whatI love you lorem ipsuum dolor sit amet whatI love you lorem ipsuum dolor sit amet what</p>
+                </div>
+                <div class="onecontent">
+                    <p>I love you lorem ipsuum dolor sit amet whatI love you lorem ipsuum dolor sit amet whatI love you lorem ipsuum dolor sit amet whatI love you lorem ipsuum dolor sit amet what</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footercontainer">
+            <div class="upperfooter">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Terms</a></li>
+    
+                </ul>
+            </div>
+            <div class="dropdown lowerfooter">
+                <button class="dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                  Language
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <li><button class="dropdown-item" type="button">አማርኛ</button></li>
+                  <li><button class="dropdown-item" type="button">English</button></li>
+                </ul>
+              </div>
+        </div>
+        
+
+    </footer>
+
+    <script>
+        let tabHeader = document.querySelectorAll(".tabs .tabheader button");
+        let tabContent = document.querySelectorAll(".tabs .tabcontent .onecontent");
+
+        for(let i=0;i<tabHeader.length;i++){
+            tabHeader[i].addEventListener("click",function(){
+                document.querySelector(".tabs .tabheader .active").classList.remove("active");
+                tabHeader[i].classList.add("active");
+                document.querySelector(".tabs .tabcontent .active").classList.remove("active");
+                tabContent[i].classList.add("active");
+            });
+        }
+
+
+        /* When the user  clicks on the button,
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+        }
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+        }
+    </script>
+</body>
+</html>
